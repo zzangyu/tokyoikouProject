@@ -1,0 +1,5 @@
+package com.tokyoProject.action;
+
+public interface Action {
+
+}

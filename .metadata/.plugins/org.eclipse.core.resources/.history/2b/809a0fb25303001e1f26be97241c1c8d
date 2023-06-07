@@ -1,0 +1,5 @@
+package com.tokyoProject.control;
+
+public class ActionForward {
+
+}
