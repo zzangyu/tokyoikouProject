@@ -8,80 +8,85 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div id="indexMainContainer">
-		<div id="loginContainer">
-			<div>
-				<div id="checkBoxContainer">
-					<div>会員</div>
-					<div>お店</div>
-				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">アカウント</div>
-					<div class="inputContainer">
-						<input type="text" maxlength="10">
-					<div class="contentsCheck">아아디 실시간 중복 확인</div>
+	<form action="">
+		<div id="indexMainContainer">
+			<div id="loginContainer">
+				<div>
+					<div id="checkBoxContainer">
+						<div><input type="radio" name="typeCheck" value="customer">会員</div>
+						<div><input type="radio" name="typeCheck" value="owner">お店</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">ニックネーム</div>
-					<div class="inputContainer">
-						<input type="text" maxlength="10">
-						<div class="contentsCheck">닉네임 실시간 중복 확인</div>
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">アカウント</div>
+						<div class="inputContainer">
+							<input type="text" maxlength="10" name="acountCheck">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">パスワード</div>
-					<div class="inputContainer">
-						<input type="password" maxlength="16">
-						<div class="contentsCheck">비밀번호를 입력해주세요.</div>
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">ニックネーム</div>
+						<div class="inputContainer">
+							<input type="text" maxlength="10" name="nickNameCheck">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">パスワード確認</div>
-					<div class="inputContainer">
-						<input type="password" maxlength="16">
-						<div class="contentsCheck">비밀번호를 한번 더 입력해주세요.</div>
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">パスワード</div>
+						<div class="inputContainer">
+							<input type="password" maxlength="16" name="passwordCheck">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">苗字</div>
-					<div class="inputContainer">
-						<input type="text" maxlength="10">
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">パスワード確認</div>
+						<div class="inputContainer">
+							<input type="password" maxlength="16" name="passwordCheck2">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">氏名</div>
-					<div class="inputContainer">
-						<input type="text" maxlength="10">
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">苗字</div>
+						<div class="inputContainer">
+							<input type="text" maxlength="10" name="familyNameCheck">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="loginContents">生年月日</div>
-			</div>
-			<div>
-				<div class="loginContents">
-					<div class="contextContainer">電話番号</div>
-					<div class="phoneContainer">
-						<input type="text" maxlength="4"> - 
-						<input type="text" maxlength="4"> - 
-						<input type="text" maxlength="4">
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">氏名</div>
+						<div class="inputContainer">
+							<input type="text" maxlength="10" name="firstNameCheck">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">生年月日</div>
+						<div class="dateContainer">
+							<input id="yearInput" type="text" maxlength="4" name="yearCheck"> 年　 
+							<input id="monthInput" type="text" maxlength="2" name="monthCheck"> 月　
+							<input id="dateInput" type="text" maxlength="2" name="dateCheck"> 日
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="loginContents">
+						<div class="contextContainer">電話番号</div>
+						<div class="phoneContainer">
+							<input type="text" maxlength="4" name="phone1Check"> - 
+							<input type="text" maxlength="4" name="phone2Check"> - 
+							<input type="text" maxlength="4" name="phone3Check">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</form>
 </body>
 </html>
