@@ -27,7 +27,6 @@ INDEX VERSION 1.131+C:\tokyoikouProject\.metadata\.plugins\org.eclipse.jdt.core
 1257096796.index
 298631452.index
 588772621.index
-2039094895.index
 31794461.index
 1700169278.index
 1870335167.index

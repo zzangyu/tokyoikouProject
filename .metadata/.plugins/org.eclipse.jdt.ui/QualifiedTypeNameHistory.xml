@@ -6,4 +6,12 @@
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.tokyoProject.action.Action"/>
+    <fullyQualifiedTypeName name="com.tokyoProject.model.ConnUtil"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="javax.naming.NamingException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.tokyoProject.model.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.tokyoProject.model.MemberVO"/>
 </qualifiedTypeNameHistroy>

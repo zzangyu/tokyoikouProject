@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/common.css">
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="">
+	<form action="tokyoPjt.do?cmd=regProc" method="post" name="regForm">
 		<div id="indexMainContainer">
 			<div id="loginContainer">
 				<div>
@@ -85,6 +85,7 @@
 						</div>
 					</div>
 				</div>
+				<button type="submit" name="sadsads"></button>
 			</div>
 		</div>
 	</form>

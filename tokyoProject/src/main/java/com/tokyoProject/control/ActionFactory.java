@@ -28,8 +28,12 @@ public class ActionFactory{
 			action = new MainAction();
 			break;
 		
-		case "test":
-			action = new TestAction();
+		case "regForm":
+			action = new RegFormAction();
+			break;
+			
+		case "regProc":
+			action = new RegProcAction();
 			break;
 			
 		default:
